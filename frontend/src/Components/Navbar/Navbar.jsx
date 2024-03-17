@@ -34,10 +34,7 @@ function Navbar() {
           : "default";
       }
 
-      document.querySelector("html").classList.remove("dark");
-      document.querySelector("html").classList.remove("default");
-      document.querySelector("html").classList.remove("auto");
-
+      
       document
         .querySelector("html")
         .classList.add(this.getOriginalAppearance());
@@ -124,7 +121,7 @@ function Navbar() {
             <div className="w-[3rem] ">
               <img src={logo} alt="Logo" />
             </div>
-            CashCow
+            CoinSavvy
           </Link>
           <div className="sm:order-3 flex items-center gap-x-2">
             <button
@@ -240,12 +237,8 @@ function Navbar() {
                 >
                 Login
               </Link>
-              <Link className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                About Us
-              </Link>
-              <a href="" className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                Project Documentation
-              </a>
+              
+              
             </div>
           </div>
         </nav>

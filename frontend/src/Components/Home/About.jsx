@@ -6,39 +6,32 @@ function About() {
     const AboutDetails = [
         {
             id: 0,
-            name: "Aryan Gulati",
-            image: "https://media.licdn.com/dms/image/D4D35AQEvnMryQnU6RA/profile-framedphoto-shrink_200_200/0/1650471128383?e=1706896800&v=beta&t=PqpNpPP8SqPlJJ1vlmNu_ozfkjDdUrDqo8pii-kOGrY",
+            name: "Sahil Agrawal",
             position: "Team Leader",
-            // description: "I am an ambitious workaholic, but apart from that, pretty simple person.",
-            linkedin: "https://www.linkedin.com/in/vehehgito/",
-            github: "https://github.com/vehehgito",
+            linkedin: "https://www.linkedin.com/in/sahilag/",
+            github: "https://github.com/sahilag",
+            
         },
         {
             id: 1,
-            name: "Neelanjan Mukherji",
-            image: "https://avatars.githubusercontent.com/u/58321614?v=4",
+            name: "Akanxi Kushwaha",
             position: "React Developer",
-            description: "I am an ambitious workaholic, but apart from that, pretty simple person.",
-            linkedin: "https://www.linkedin.com/in/neelanjan-mukherji/",
-            github: "https://github.com/Maverick7274",
+            linkedin: "https://www.linkedin.com/in/akanxikushwaha/",
+            github: "https://github.com/akanxikushwaha",
         },
         {
             id: 2,
-            name: "Muteen Nabi Kundangar",
-            image: "https://media.licdn.com/dms/image/D4D35AQFagnSUV7ZtgQ/profile-framedphoto-shrink_200_200/0/1652689835622?e=1706896800&v=beta&t=xfIGX70dDiUXnyoZcYAn8gWKRe4T72F9BX316UBkhs4",
+            name: "Yash Kaushik",
             position: "Backend Developer",
-            description: "I am an ambitious workaholic, but apart from that, pretty simple person.",
-            linkedin: "https://www.linkedin.com/in/muteen-nabi-kundangar-79a27a187/",
-            github: "https://github.com/muteenk",
+            linkedin: "https://www.linkedin.com/in/kaushik-03-79a27a187/",
+            github: "https://github.com/kaushik03",
         },
         {
             id: 2,
-            name: "Rishit Jain",
-            image: "https://media.licdn.com/dms/image/C4D03AQGP99HXASEEAQ/profile-displayphoto-shrink_200_200/0/1650382506341?e=1711584000&v=beta&t=wkUlD04RMFwe_jl2iDWZiU243elae8iM25y7dME2wrE",
-            position: "Something",
-            description: "I am an ambitious workaholic, but apart from that, pretty simple person.",
-            linkedin: "https://www.linkedin.com/in/rishitjain48/",
-            github: "https://github.com/Rishitjain4874",
+            name: "Lavanya Varshney",
+            position: "Backend Developer",
+            linkedin: "https://www.linkedin.com/in/lavanaya28var/",
+            github: "https://github.com/lavanaya28var",
         },
     ];
   return (
@@ -46,7 +39,7 @@ function About() {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-            Our leadership
+            Project Developers
           </h2>
           <p className="mt-1 text-gray-600 dark:text-gray-400">
             Creative people

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Banner from "./Banners/Banner";
 
+
 function Hero() {
   // Banner Details
   const BannerDetails = [
@@ -9,21 +10,23 @@ function Hero() {
       images:
         "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       text: "Effortless Expense Tracking for a Smarter Financial Future.",
-      buttonText: "Get Started",
-      buttonPath: "/register",
+      /*buttonText: "Bhalu",
+      buttonPath: "/register",*/
     },
     {
       id: 1,
       images:
         "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9uZXl8ZW58MHwwfDB8fHww",
-      text: "Financial Freedom is a Click Away.",
-      buttonText: "Get Started",
-      buttonPath: "/register",
+      text: "Financial Awareness is a Click Away.",
+      /*buttonText: "Bhalu",
+      buttonPath: "/register",*/
     },
   ];
 
+
   // Banner Slider Logic
   const [current, setCurrent] = useState(BannerDetails[0].id);
+
 
   // Auto Slider Logic
   const delay = 5000;
@@ -34,6 +37,7 @@ function Hero() {
     return () => clearInterval(interval);
   });
 
+
   // Previous Button Logic
   const previousSlide = () => {
     if (current === BannerDetails[0].id) {
@@ -43,6 +47,7 @@ function Hero() {
     }
   };
 
+
   // Next Button Logic
   const nextSlide = () => {
     if (current === BannerDetails.length - 1) {
@@ -51,6 +56,7 @@ function Hero() {
       setCurrent(current + 1);
     }
   };
+
 
   return (
     // Components
@@ -67,6 +73,7 @@ function Hero() {
           buttonPath={BannerDetails[current].buttonPath}
         />
       </div>
+
 
       <div className="absolute bottom-0 left-0 sm:flex justify-between items-center w-full hidden pb-[3rem] p-[3rem]">
         {/* Left & Right Buttons */}
@@ -91,6 +98,7 @@ function Hero() {
             </svg>
           </button>
 
+
           <div className="hs-carousel-pagination flex justify-center space-x-2">
             {
             BannerDetails.map((banner) => (
@@ -106,6 +114,7 @@ function Hero() {
             ))
           }
           </div>
+
 
           <button
             type="button"
@@ -131,10 +140,17 @@ function Hero() {
       </div>
     </div>
 
+
     // <>
     // <Banner />
     // </>
   );
 }
 
+
 export default Hero;
+
+
+
+
+

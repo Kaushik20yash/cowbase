@@ -42,7 +42,7 @@ function Features() {
         <svg className="flex-shrink-0 w-6 h-6 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
       </div>
       <div className="mt-5">
-        <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Colaborative Budgenting and Expense Tracking</h3>
+        <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Collaborative Budgeting and Expense Tracking</h3>
         <p className="mt-1 text-gray-600 dark:text-gray-400">Transform the way you manage your finances</p>
       </div>
     </div>

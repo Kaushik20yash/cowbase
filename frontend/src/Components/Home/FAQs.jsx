@@ -10,6 +10,7 @@ function FAQs() {
         </p>
       </div>
 
+
       <div className="max-w-2xl mx-auto">
         <div className="hs-accordion-group">
           <div
@@ -20,7 +21,7 @@ function FAQs() {
               className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
             >
-              What is collaborative budgeting, and how does it work in this app?
+              What is collaborative budgetting?
               <svg
                 className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,12 +51,13 @@ function FAQs() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
             >
               <p className="text-gray-800 dark:text-gray-200">
-              Collaborative budgeting in our app allows multiple users to work together on a shared budget. 
-              You can invite family members or friends, allocate expenses, 
+              Budgeting in our app allows multiple users to work together on a shared budget.
+              You can invite family members or friends, allocate expenses,
                and track financial goals collectively.
               </p>
             </div>
           </div>
+
 
           <div
             className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
@@ -95,11 +97,12 @@ function FAQs() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <p className="text-gray-800 dark:text-gray-200">
-              Expense tracking is a crucial feature for understanding where your money goes. Our webapp helps you categorize and visualize expenses, 
+              Expense tracking is a crucial feature for understanding where your money goes. Our webapp helps you categorize and visualize expenses,
               making it easier to identify spending patterns, set realistic budgets, and make informed financial decisions.
               </p>
             </div>
           </div>
+
 
           <div
             className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
@@ -145,50 +148,9 @@ function FAQs() {
             </div>
           </div>
 
-          <div
-            className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
-            id="hs-basic-with-title-and-arrow-stretched-heading-four"
-          >
-            <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
-            >
-              How does the collaborative budgeting feature handle shared expenses among users?
-              <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-              >
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-              <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-              >
-                <path d="m18 15-6-6-6 6" />
-              </svg>
-            </button>
-            <div
-              id="hs-basic-with-title-and-arrow-stretched-collapse-four"
-              className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-              aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
-            >
-              <p className="text-gray-800 dark:text-gray-200">
-              Our collaborative budgeting feature simplifies shared expenses. 
-              Users can input shared costs, split bills, and track who owes what. 
-              It's an efficient way to manage joint finances and avoid any confusion among collaborators.
-              </p>
-            </div>
-          </div>
+
+         
+
 
           <div
             className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
@@ -198,7 +160,7 @@ function FAQs() {
               className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
             >
-               Can I set financial goals and monitor my progress within the app?
+               Can I set financial goals and monitor my progress within the webapp?
               <svg
                 className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                 xmlns="http://www.w3.org/2000/svg"
@@ -228,12 +190,13 @@ function FAQs() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <p className="text-gray-800 dark:text-gray-200">
-              Yes, setting financial goals is a key aspect of our app. You can establish savings targets, 
+              Yes, setting financial goals is a key aspect of our app. You can establish savings targets,
               debt repayment goals, or any other financial objectives.
                The app provides visual progress tracking, keeping you motivated on your financial journey.
               </p>
             </div>
           </div>
+
 
           <div
             className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
@@ -243,7 +206,7 @@ function FAQs() {
               className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
             >
-              How does this webapp help in increasing my Finaicial literacy?
+              How does this webapp help in increasing my Financial literacy?
               <svg
                 className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                 xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +237,8 @@ function FAQs() {
             >
               <p className="text-gray-800 dark:text-gray-200">
                There are many ways to increase your financial literacy with our webapp.
-               You can read out documentation, then give Quizzes to test your knowledge.
+               You can read out the blogs and articles published by us on the website to keep your knowledge up to date.
+               This really enhances your skills to make and follow and strict budget, Hence improving your personal finance.
               </p>
             </div>
           </div>
@@ -284,4 +248,10 @@ function FAQs() {
   );
 }
 
+
 export default FAQs;
+
+
+
+
+

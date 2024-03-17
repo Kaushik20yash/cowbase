@@ -15,42 +15,16 @@ function Footer() {
                                 <div className="w-[3rem]">
                                     <img src={logo} alt="Logo" />
                                 </div>
-                                CashCow
+                                CoinSavvy
                             </div>
                         </a>
                     </div>
 
-                    <div className="mt-3">
-                        <p className="text-gray-500">
-                            © Semicolon Stardust; 2024; All rights reserved;
-                        </p>
-                    </div>
+                    
 
                     <div className="mt-3 space-x-2">
-                        <a className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-                            href="https://www.instagram.com/semicolonstardust" target="_blank">
-
-                            {/* Instagram icon svg */}
-                            <svg
-                                className="flex-shrink-0 w-3.5 h-3.5"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    fillRule="evenodd"
-                                    d="M12.5 0H3.5A3.5 3.5 0 0 0 0 3.5v8.1A3.5 3.5 0 0 0 3.5 15h8.1a3.5 3.5 0 0 0 3.5-3.5v-8.1A3.5 3.5 0 0 0 12.5 0zm1 11.6a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1v-8.1a1 1 0 0 1 1-1h8.1a1 1 0 0 1 1 1v8.1z"
-                                />
-                                <path
-                                    fillRule="evenodd"
-                                    d="M8 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm0 1a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm4.5-1a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1zM8.5 9a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2-3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1z"
-                                />
-                            </svg>
-                        </a>
-
-                        <a className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="https://github.com/Semicolon-Stardust" target="_blank">
+                    
+                        <a className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="https://github.com/Kaushik20yash" target="_blank">
                             <svg
                                 className="flex-shrink-0 w-3.5 h-3.5"
                                 xmlns="http://www.w3.org/2000/svg"

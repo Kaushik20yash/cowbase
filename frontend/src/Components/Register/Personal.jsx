@@ -1,5 +1,6 @@
 import Input from "../Utilities/Input";
 
+
 function Personal({input, handleChange}) {
   return (
     <div className="w-full">
@@ -19,4 +20,8 @@ function Personal({input, handleChange}) {
   );
 }
 
+
 export default Personal;
+
+
+

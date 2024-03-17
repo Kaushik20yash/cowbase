@@ -55,8 +55,7 @@ function Login() {
                 Log <span className="text-blue-600 dark:text-blue-500">In</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 my-4">
-                Built on standard web technology, teams use Preline to build
-                beautiful cross-platform hybrid apps in a fraction of the time.
+              Welcome to our platform! Secure your journey with us. Login now to unlock a world of possibilities.
               </p>
 
               <form onSubmit={submitHandler}>

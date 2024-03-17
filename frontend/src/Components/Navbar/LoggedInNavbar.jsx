@@ -151,7 +151,7 @@ function LoggedInNavbar() {
             <div className="w-[3rem] ">
               <img src={logo} alt="Logo" />
             </div>
-            CashCow
+            CoinSavvy
           </Link>
         </div>
 

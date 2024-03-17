@@ -42,12 +42,11 @@ function HowItWorks() {
                   </svg>
                   <span className="grow ms-6">
                     <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                    Great User Experience(UX)
+                    Master Budgeting Basics
                     </span>
                     <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                    Explore financial empowerment with our app's seamless and intuitive User Experience.
-                    Effortless navigation personalized design, and secure interactions make 
-                    financial management a breeze.
+                    Track what you earn and what you spend each month, set aside a certain amount of money to be your margin of error every month to create breathing room in your budget.
+ 
                     </span>
                   </span>
                 </span>
@@ -76,11 +75,11 @@ function HowItWorks() {
                   </svg>
                   <span className="grow ms-6">
                     <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                    Colaborative Budgeting
+                    Responsible Borrowing
                     </span>
                     <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                    Elevate your finances with collaborative budgeting. Join forces with family, friends,
-                     or partners to set shared goals, track expenses, and achieve financial success together.
+                    identify the most cost-effective loans, recognize potential challenges, and make informed choices with regards to borrowing.
+
                     </span>
                   </span>
                 </span>
@@ -112,11 +111,11 @@ function HowItWorks() {
                   </svg>
                   <span className="grow ms-6">
                     <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                    Finaicial Inclusivity
+                    Saving v/s Investing
                     </span>
                     <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                    Explore financial empowerment with our app's seamless and intuitive User Experience. Effortless navigation,
-                     personalized design, and secure interactions make financial management a breeze.
+                    Saving money means storing it safely so that it is available when we need it and it has a low risk of losing value. Investment comes with risk, but also the potential for higher returns
+
                     </span>
                   </span>
                 </span>
